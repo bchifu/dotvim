@@ -11,3 +11,15 @@ Switch to the `~/.vim` directory, and fetch submodules:
     cd ~/.vim
     git submodule init
     git submodule update
+
+To update plugins:
+
+    git submodule update --remote --merge
+    git commit
+
+To remove plugins:
+
+   git submodule deinit ~/.vim/pack/bchifu/start/<plugin_name>
+   git rm ~/.vim/pack/bchifu/start/<plugin_name>
+   rm -Rf ~/vim/.git/modules/vim/pack/bchifu/start/<plugin_name>
+   git commit
