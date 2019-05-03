@@ -10,7 +10,9 @@ Switch to the `~/.vim` directory, and fetch submodules:
 
     cd ~/.vim
     git submodule init
-    git submodule update
+    git submodule add <plugin> pack/bchifu/start/<plugin_name>
+    git add .gitmodules vim/pack/bchifu/start/<plugin_name>
+    git commit
 
 To update plugins:
 
