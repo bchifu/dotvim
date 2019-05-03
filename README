@@ -21,5 +21,5 @@ To remove plugins:
 
    git submodule deinit ~/.vim/pack/bchifu/start/<plugin_name>
    git rm ~/.vim/pack/bchifu/start/<plugin_name>
-   rm -Rf ~/vim/.git/modules/vim/pack/bchifu/start/<plugin_name>
+   rm -Rf ~/vim/.git/modules/pack/bchifu/start/<plugin_name>
    git commit
