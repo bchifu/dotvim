@@ -34,3 +34,6 @@
 [submodule "pack/bchifu/start/nerdtree"]
 	path = pack/bchifu/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "modules/bat"]
+	path = modules/bat
+	url = https://github.com/sharkdp/bat.git
