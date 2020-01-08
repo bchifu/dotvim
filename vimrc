@@ -62,7 +62,10 @@ endif
 packadd! fzf
 
 let mapleader=","
-set colorcolumn=80
+
+" Mark 80 columns for code
+let &colorcolumn=join(range(81,999),",")
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -72,3 +75,18 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_python_checkers = ['flake8']
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+
+" Search settings
+set ignorecase
+set smartcase
+
+" XML fold
+augroup XML
+  autocmd!
+  autocmd FileType xml setlocal foldmethod=indent foldlevelstart=999 foldminlines=0
+augroup END
