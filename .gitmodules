@@ -4,15 +4,6 @@
 [submodule "pack/bchifu/start/vim-fzf"]
 	path = pack/bchifu/start/vim-fzf
 	url = https://github.com/junegunn/fzf.git
-[submodule "pack/bchifu/opt/vim-fzf"]
-	path = pack/bchifu/opt/vim-fzf
-	url = https://github.com/junegunn/fzf.git
-[submodule "pack/bchifu/opt/fzf"]
-	path = pack/bchifu/opt/fzf
-	url = https://github.com/junegunn/fzf.git
-[submodule "pack/bchifu/start/fzf-vim"]
-	path = pack/bchifu/start/fzf-vim
-	url = https://github.com/junegunn/fzf.vim.git
 [submodule "pack/bchifu/start/utilsnips"]
 	path = pack/bchifu/start/utilsnips
 	url = https://github.com/SirVer/ultisnips.git
@@ -34,12 +25,6 @@
 [submodule "pack/bchifu/start/nerdtree"]
 	path = pack/bchifu/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "modules/bat"]
-	path = modules/bat
-	url = https://github.com/sharkdp/bat.git
-[submodule "/home/bchifu/github/dotvim/pack/bchifu/opt/fzf_vim"]
-	path = /home/bchifu/github/dotvim/pack/bchifu/opt/fzf_vim
-	url = https://github.com/junegunn/fzf.vim
 [submodule "pack/bchifu/start/fzf"]
 	path = pack/bchifu/start/fzf
 	url = https://github.com/junegunn/fzf.git

@@ -1,0 +1,104 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "profiles":
+    {
+        "defaults":
+        {
+            // Put settings here that you want to apply to all profiles
+            "fontFace": "Fira Mono for Powerline",
+            "fontSize": 10
+        },
+        "list":
+        [
+            {
+                // Make changes here to the powershell.exe profile
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                // Make changes here to the cmd.exe profile
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+		"useAcrylic": false,
+		"colorScheme": "Vim Solarized Dark",
+                "experimental.retroTerminalEffect": false,
+                "startingDirectory":"\\\\wsl$\\Ubuntu\\home\\bchifu\\"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+
+    // Add custom color schemes to this array
+    "schemes": [
+	{
+	  "name": "Vim Solarized Dark",
+	  "black": "#262626",
+	  "red": "#d70000",
+	  "green": "#5f8700",
+	  "yellow": "#af8700",
+	  "blue": "#0087ff",
+	  "purple": "#af005f",
+	  "cyan": "#00afaf",
+	  "white": "#d7d7af",
+	  "brightBlack": "#1c1c1c",
+	  "brightRed": "#d75f00",
+	  "brightGreen": "#4e4e4e",
+	  "brightYellow": "#585858",
+	  "brightBlue": "#808080",
+	  "brightPurple": "#5f5faf",
+	  "brightCyan": "#8a8a8a",
+	  "brightWhite": "#ffffd7",
+	  "background": "#1c1c1c",
+	  "foreground": "#8a8a8a"
+	},
+	{
+	  "name": "Vim Solarized Light",
+	  "black": "#262626",
+	  "red": "#d70000",
+	  "green": "#5f8700",
+	  "yellow": "#af8700",
+	  "blue": "#0087ff",
+	  "purple": "#af005f",
+	  "cyan": "#00afaf",
+	  "white": "#d7d7af",
+	  "brightBlack": "#1c1c1c",
+	  "brightRed": "#d75f00",
+	  "brightGreen": "#4e4e4e",
+	  "brightYellow": "#585858",
+	  "brightBlue": "#808080",
+	  "brightPurple": "#5f5faf",
+	  "brightCyan": "#8a8a8a",
+	  "brightWhite": "#ffffd7",
+	  "background": "#ffffd7",
+	  "foreground": "#4e4e4e"
+	}
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": [
+        { "command": {"action": "splitPane", "split": "auto", "splitMode": "duplicate"}, "keys": ["ctrl+d"] },
+        { "command": {"action": "closePane"}, "keys": ["ctrl+x"] }
+    ]
+}

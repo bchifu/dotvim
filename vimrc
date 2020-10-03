@@ -61,9 +61,8 @@ endif
 
 let mapleader=","
 
-" Mark 80 columns for code
-let &colorcolumn=join(range(81,999),",")
-highlight ColorColumn ctermbg=235 guibg=#2c2d27
+colorscheme solarized
+set background=dark
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
