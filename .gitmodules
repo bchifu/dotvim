@@ -37,3 +37,6 @@
 [submodule "modules/bat"]
 	path = modules/bat
 	url = https://github.com/sharkdp/bat.git
+[submodule "/home/bchifu/github/dotvim/pack/bchifu/opt/fzf_vim"]
+	path = /home/bchifu/github/dotvim/pack/bchifu/opt/fzf_vim
+	url = https://github.com/junegunn/fzf.vim
