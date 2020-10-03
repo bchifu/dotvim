@@ -40,3 +40,6 @@
 [submodule "/home/bchifu/github/dotvim/pack/bchifu/opt/fzf_vim"]
 	path = /home/bchifu/github/dotvim/pack/bchifu/opt/fzf_vim
 	url = https://github.com/junegunn/fzf.vim
+[submodule "pack/bchifu/start/fzf"]
+	path = pack/bchifu/start/fzf
+	url = https://github.com/junegunn/fzf.git

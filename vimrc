@@ -59,8 +59,6 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
-packadd! fzf
-
 let mapleader=","
 
 " Mark 80 columns for code
