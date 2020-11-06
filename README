@@ -17,6 +17,7 @@ Switch to the `~/.vim` directory, and fetch submodules:
 To update plugins:
 
     git submodule update --remote --merge
+
     git commit
 
 To remove plugins:
