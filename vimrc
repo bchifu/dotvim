@@ -95,3 +95,6 @@ augroup XML
   autocmd!
   autocmd FileType xml setlocal foldmethod=indent foldlevelstart=999 foldminlines=0
 augroup END
+
+command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
+
