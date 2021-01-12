@@ -37,3 +37,42 @@
 [submodule "pack/bchifu/start/vim-eunuch"]
 	path = pack/bchifu/start/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch.git
+[submodule "pack/bchifu/start/vim-buffkill"]
+	path = pack/bchifu/start/vim-buffkill
+	url = https://github.com/qpkorr/vim-bufkill.git
+[submodule "pack/bchifu/start/salt-vim"]
+	path = pack/bchifu/start/salt-vim
+	url = https://github.com/saltstack/salt-vim.git
+[submodule "pack/bchifu/start/vim-mundo"]
+	path = pack/bchifu/start/vim-mundo
+	url = https://github.com/simnalamburt/vim-mundo.git
+[submodule "pack/bchifu/start/limelight-vim"]
+	path = pack/bchifu/start/limelight-vim
+	url = https://github.com/junegunn/limelight.vim.git
+[submodule "pack/bchifu/start/vim-sensible"]
+	path = pack/bchifu/start/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "pack/bchifu/start/vim-repeat"]
+	path = pack/bchifu/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "pack/bchifu/start/vim-surround"]
+	path = pack/bchifu/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/bchifu/start/vim-commentary"]
+	path = pack/bchifu/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "pack/bchifu/start/vim-endwise"]
+	path = pack/bchifu/start/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "pack/bchifu/start/vim-goyo"]
+	path = pack/bchifu/start/vim-goyo
+	url = https://github.com/junegunn/goyo.vim.git
+[submodule "pack/bchifu/start/vim-rhubarb"]
+	path = pack/bchifu/start/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
+[submodule "pack/bchifu/start/vim-easyclip"]
+	path = pack/bchifu/start/vim-easyclip
+	url = https://github.com/svermeulen/vim-easyclip.git
+[submodule "pack/bchifu/start/vim-abolish"]
+	path = pack/bchifu/start/vim-abolish
+	url = https://github.com/tpope/vim-abolish.git
